@@ -5,6 +5,7 @@ modules = ["rust-stable"]
 
 [nix]
 channel = "stable-24_05"
+packages = ["gh"]
 
 [gitHubImport]
 requiredFiles = [".replit"]
